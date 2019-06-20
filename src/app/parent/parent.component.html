@@ -1,0 +1,14 @@
+<h2>
+  Click to get date and time
+  </h2>
+<div [@myAnimation]='currentstate'></div>
+<button (click)="getDate()"  >Get Date</button>
+
+<br>
+<br>
+
+
+
+<button (click)="getTime()"  >Get Time</button>
+<app-child1 [dates]="dates"></app-child1>
+<app-child2 [times]="times"></app-child2>
